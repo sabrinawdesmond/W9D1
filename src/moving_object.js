@@ -16,6 +16,10 @@ class MovingObject {
     ctx.strokeStyle = c;
     ctx.stroke();
   }
+
+  move() {
+    this.pos = this.pos += this.vel
+  }
 }
 
 export default MovingObject;
